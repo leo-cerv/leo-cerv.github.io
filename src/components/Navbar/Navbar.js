@@ -14,8 +14,8 @@ const [showMenuBurguer, setShowMenuBurguer] = useState(false);
        <S.ContainerLogo>
         <S.ImageLogo src="/img/logo.png" alt="Logo Leo C" />
         <div>
-          <h1>Leo C</h1>
-          <h2>Developer</h2>
+          <h1>Leonardo C</h1>
+          <h2>Ciencia de datos y Blockchain</h2>
 
         </div>
 

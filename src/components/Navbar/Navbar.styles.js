@@ -33,6 +33,10 @@ export const ContainerLogo = styled.div`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media (max-width: 768px) {
+        font-size: medium;
+    }
   }
 `;
 
