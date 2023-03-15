@@ -34,15 +34,24 @@ const AboutMe = () => {
             
             <S.ContainerText>
                 <S.Title>
-                    <p>Hola! Me llamo</p>
-                    <p>Leonardo</p>
-                    <p>Data Analyst</p>
+                    <p>¡Hola! </p>
+                    <p>Bienvenido</p>
                 </S.Title>
 
                 <S.DescriptionText>
-                Ingeniero Comercial y administrador de empresas especializado en tecnologías de la información.
-                Me apasiona crear soluciones financieras, comerciales y de operaciones usando técnicas avanzadas de 
-                análisis de datos, inteligencia artificial, Blockchain y de desarrollo web
+                Mi nombre es Leonardo, de profesión soy Ingeniero Comercial y administrador de empresas con mención en finanzas,
+                también tengo un título técnico en administración de hoteles y restaurantes. El último tiempo lo he dedicado a la especialización en tecnologías de la información.
+                <br></br>
+                Mi pasión es crear soluciones tecnológicas en áreas financieras, comerciales y de operaciones usando técnicas avanzadas de 
+                análisis de datos, inteligencia artificial, blockchain y de desarrollo web
+                <br></br>
+                <br></br>
+                <b>Lenguajes: </b> R, Python, Solidity, JavaScript, HTML5, CSS3, SQL y NoSQL
+
+                <br></br>
+                <br></br>
+                <b>Skills: </b>Analitica y visualización avanzada de datos, modelado predictivo, blockchain, marketing digital, estandarización, finanzas e inversiones.
+
                 </S.DescriptionText>
 
                 <S.ContainerIcons>
@@ -64,7 +73,7 @@ const AboutMe = () => {
 
 
             <S.ContainerImage>
-                <img src="/img/photo4.png" alt="Leo C"></img>
+                <img src="/img/photo5.png" alt="Leo C"></img>
             </S.ContainerImage>
 
 

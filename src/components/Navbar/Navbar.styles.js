@@ -27,6 +27,10 @@ export const ContainerLogo = styled.div`
   }
   h1 {
     font-size: 2rem;
+
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
   }
   h2 {
     background: linear-gradient(135deg, #cb5eee 0%, #4be1ec 100%);

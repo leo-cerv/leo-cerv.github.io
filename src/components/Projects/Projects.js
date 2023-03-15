@@ -8,8 +8,10 @@ const Projects = () => {
   return (
 
     <S.ContainerProjects>
-        <S.Title>Te comparto alguno de
-             <span> <br /> mis proyectos</span></S.Title>  {/* el br es para hacer un salto de linea*/}
+        <S.Title>
+            Te comparto algunos de
+             <span> <br /> mis proyectos</span>
+             </S.Title>  {/* el br es para hacer un salto de linea*/}
         
         <S.ContentProject>
 
@@ -38,8 +40,8 @@ const Projects = () => {
                     <S.Description>{project.description}</S.Description>
 
                     <S.ContainerFooter>
-                        <p>Ver en:</p>
-                        
+                        <b>Ver en:</b>
+
                         {project.repository && (
                             <a href={project.repository} target="_blank" rel="noreferrer">
 

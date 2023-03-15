@@ -40,6 +40,7 @@ export const projectsPortfolio = [
     image: criptodash,
     techs: [
       { name: "R", src: rlogo },
+      { name: "Shiny", src: shinylogo },
       { name: "ModelTime", src: modeltimelogo },
     ],
     description:

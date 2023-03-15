@@ -14,8 +14,8 @@ const [showMenuBurguer, setShowMenuBurguer] = useState(false);
        <S.ContainerLogo>
         <S.ImageLogo src="/img/logo.png" alt="Logo Leo C" />
         <div>
-          <h1>Leonardo C</h1>
-          <h2>Ciencia de datos y Blockchain</h2>
+          <h1>Leonardo Cervetto</h1>
+          <h2>Business Intelligence Developer</h2>
 
         </div>
 
@@ -31,9 +31,9 @@ const [showMenuBurguer, setShowMenuBurguer] = useState(false);
 
 
        <S.ContainerItems showMenuBurguer={showMenuBurguer}>
-          <p>About me</p>
-          <p>Projects</p>
-          <S.Button>Contact me</S.Button>
+          <p>Sobre mi</p>
+          <p>Proyectos</p>
+          <S.Button>Contáctame</S.Button>
           
        </S.ContainerItems>
 

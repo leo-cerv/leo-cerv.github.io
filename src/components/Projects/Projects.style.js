@@ -14,10 +14,8 @@ export const Title = styled.h2`
   text-align: center;
   font-size: 30px;
   span {
-    font-size: 40px;
-    background: linear-gradient(135deg, #d6ff7f 0%, #00b3cc 100%);
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+    font-size: 50px;
+
   }
 `;
 
@@ -44,9 +42,7 @@ export const TitleProject = styled.h3`
   margin-bottom: 10px;
   color: ${colors.TEXT_WHITE};
   background: linear-gradient(
-    135deg,
-    rgb(102, 153, 255) 0%,
-    rgb(255, 51, 102) 100%
+    62deg, #7bb0f7 28%, #cf9def 89%
   );
   box-shadow: ${colors.BOX_SHADOW_BLUE};
   text-decoration: none;
@@ -76,7 +72,7 @@ export const ContainerTechs = styled.div`
   }
   img {
     width: 35px;
-    height: auto;
+    height: 38px;
     margin: 0 5px;
   }
   p {
@@ -88,6 +84,7 @@ export const ContainerTechs = styled.div`
 
 export const Description = styled.div`
   margin-top: 0;
+  text-align: justify;
 `;
 
 export const ContainerFooter = styled.div`

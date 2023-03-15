@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import { colors } from "../../styles/colors";
 
-export const ContainerAboutMe = styled.div``;
+export const ContainerAboutMe = styled.div`
+background-color: #f2ebfa;
+`;
 
 export const ContainerFlex = styled.div`
   display: flex; // con un display flex, las labels se van poniendo a lo ancho, no a lo largo
@@ -47,6 +49,7 @@ export const DescriptionText = styled.div`
   font-size: 16px;
   color: ${colors.TEXT_GREY_NEUTRAL};
   padding-right: 100px;
+  text-align: justify;
   @media (max-width: 768px) {
     padding-right: 0;
   }
@@ -54,6 +57,7 @@ export const DescriptionText = styled.div`
 
 export const ContainerIcons = styled.div`
   display: flex;
+  padding-top: 10px;
   img {
     width: 32px;
     height: 32px;
@@ -70,6 +74,7 @@ export const ContainerImage = styled.div`
   img {
     width: 250px;
     border-radius: 50%;
+    box-shadow: ${colors.BOX_SHADOW_BLUE};
   }
   @media (max-width: 768px) {
     width: 100%;
