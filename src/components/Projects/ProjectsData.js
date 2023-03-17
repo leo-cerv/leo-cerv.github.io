@@ -48,7 +48,7 @@ export const projectsPortfolio = [
     website: "https://restodata.shinyapps.io/CrypoDash/"
   },
   {
-    title: "Smart Financial Portafolio",
+    title: "Smart Financial Portfolio",
     image: portfoliodash,
     techs: [
       { name: "R", src: rlogo },
