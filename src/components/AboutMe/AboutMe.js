@@ -3,7 +3,7 @@ import * as S from "./AboutMe.styles";
 import logoGithub from "../../svg/github.svg"
 import logoLinkedIn from "../../svg/linkedin.svg"
 import logoYouTube from "../../svg/youtube.svg"
-import perfil from "../../images/photo5.png"
+
 
 const AboutMe = () => {
 
@@ -76,7 +76,7 @@ const AboutMe = () => {
 
 
             <S.ContainerImage>
-                <img src={perfil} alt="Leo C"></img>
+                <img src="./react-6_portafolio/photo5.png" alt="Leo C"></img>
             </S.ContainerImage>
 
 
