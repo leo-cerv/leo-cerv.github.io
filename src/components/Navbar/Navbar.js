@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import React from 'react'
 import * as S from "./Navbar.styles"
+import headlogo from "../../images/logo.png"
 
 
 export const Navbar = () => {
@@ -19,7 +20,7 @@ const clickItemNav = (item) => {
     // importo el nombre de la constante en syle componentent
     <S.ContainerNavbar>
        <S.ContainerLogo>
-        <S.ImageLogo src="./react-6_portafolio/logo.png" alt="Logo Leo C" />
+        <S.ImageLogo src={headlogo} alt="Logo Leo C" />
         <div>
           <h1>Leonardo Cervetto</h1>
           <h2>Business Intelligence Developer</h2>
