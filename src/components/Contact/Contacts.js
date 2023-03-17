@@ -67,7 +67,7 @@ const onSubmit = (e) => {
 
 
   return (
-    <S.ContainerContact>
+    <S.ContainerContact id='contact'>
         <S.Title> Contáctame </S.Title>
 
 

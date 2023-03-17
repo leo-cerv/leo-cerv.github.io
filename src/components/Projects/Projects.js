@@ -7,7 +7,7 @@ import logowebsite from "../../svg/website.svg"
 const Projects = () => {
   return (
 
-    <S.ContainerProjects>
+    <S.ContainerProjects id='projects'>
         <S.Title>
             Te comparto algunos de
              <span> <br /> mis proyectos</span>

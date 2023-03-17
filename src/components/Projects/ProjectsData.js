@@ -32,8 +32,8 @@ export const projectsPortfolio = [
     ],
     description:
       "Aplicación web para restaurantes que ayuda a definir estrategias comerciales y precios de los platos en carta. Incluye sistema de recomendaciónes.",
-    repository: "https://github.com/ratasi/rick-morty/",
-    website: "#!",
+    repository: "https://github.com/leo-cerv/Ejemplo/blob/main/Ing_Menu.Rmd"
+    
   },
   {
     title: "Cryptocurrency price predictor",
@@ -44,9 +44,8 @@ export const projectsPortfolio = [
       { name: "ModelTime", src: modeltimelogo },
     ],
     description:
-      "Aplicación que predice el precio de las criptomonedas utilizando inteligencia artificial. Incluye un panel interactivo de indicadores de tendencia.",
-    repository: "https://github.com/ratasi/todolist-udemy",
-    website: "#!",
+      "Aplicación web que predice el precio de las criptomonedas utilizando inteligencia artificial. Incluye un panel interactivo de indicadores de tendencia.",
+    website: "https://restodata.shinyapps.io/CrypoDash/"
   },
   {
     title: "Smart Financial Portafolio",
@@ -57,9 +56,8 @@ export const projectsPortfolio = [
       { name: "Tidyquant", src: tidyquantlogo },
     ],
     description:
-      "Aplicación que ayuda a definir el peso de cada activo en una cartera de inversión tomando como base la estrategia definida por el usuario.",
-    repository: "https://github.com/ratasi/simpson-phrases",
-    website: "#!",
+      "Aplicación web que ayuda a definir el peso de cada activo en una cartera de inversión tomando como base la estrategia definida por el usuario.",
+    website: " https://restodata.shinyapps.io/Portfolio/"
   },
   {
     title: "Twitter Mining",
@@ -71,21 +69,19 @@ export const projectsPortfolio = [
     ],
     description:
       "Aplicación que analiza tweets en tiempo real usando técnicas de minería de texto. Ayuda a definir palabras más usadas para potenciar el posicionamiento web. Incluye algoritmo de análisis de sentimientos.",
-    repository: "https://github.com/ratasi/marvel-react",
-    website: "#!",
+    website: " https://restodata.shinyapps.io/Twittermine/"
   },
 
   {
-    title: "Crypto Gasto",
+    title: "Service Token",
     image: tokenapp,
     techs: [
       { name: "Solidity", src: soliditylogo },
       { name: "JavaScript", src: jslogo },
     ],
     description:
-      "medio de pago en modelo de dos partes (P2P) desarrollado con contratos inteligentes que procesan la compra y venta de tokens para el pago de servicios, en este caso, gastronómicos. Programado con Solidity.",
-    repository: "https://github.com/ratasi/dynamic-form-project",
-    website: "#!",
+      "Medio de pago en modelo de dos partes (P2P) desarrollado con contratos inteligentes que procesan la compra y venta de tokens para el pago de servicios. Montado sobre la blockchain de Ethereum.",
+    repository: "https://github.com/leo-cerv/Ejemplo/blob/main/contracts/Pago_Token_Eventos.sol"
   }
   
 ];
